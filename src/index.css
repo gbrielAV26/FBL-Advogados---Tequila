@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-headline: 'Halyard Display', 'Halyard Text', 'Halyard', 'Archivo', system-ui, -apple-system, sans-serif;
+    --font-body: 'Archivo', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: #fbf9f9;
+    color: #1b1c1c;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-headline, .font-halyard, .font-serif-headline {
+    font-family: var(--font-headline);
+    letter-spacing: -0.025em;
+  }
+}
+
+.font-headline,
+.font-halyard,
+.font-serif-headline {
+  font-family: 'Halyard Display', 'Halyard Text', 'Halyard', 'Archivo', system-ui, -apple-system, sans-serif;
+  letter-spacing: -0.025em;
+}
+
+.font-body,
+.font-archivo,
+.font-sans-body {
+  font-family: 'Archivo', system-ui, -apple-system, sans-serif;
+}
+
+.sharp-border {
+  border-radius: 0px !important;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #efeded;
+}
+::-webkit-scrollbar-thumb {
+  background: #9e0418;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7a0313;
+}

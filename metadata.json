@@ -1,0 +1,8 @@
+{
+  "name": "Remix FBL Advogados",
+  "description": "Website institucional e portal de serviços da FBL Advogados — Sociedade de Advogados de Angola, com áreas de actuação, equipa, publicações e contactos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
